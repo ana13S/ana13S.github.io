@@ -1,0 +1,67 @@
+.App-header {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.Navigation-bar {
+  position: absolute;
+  width: 100%;
+  height: 15%;
+  left: 0px;
+  top: 5%;
+  display: flex;
+  justify-content: space-between;
+  background: #8EC9BB;
+}
+
+.option {
+  background: #C5D7C0;
+  font-family: Ruluko;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3vw;
+  line-height: 46px;
+  color: #FA6E4F;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  margin-left: 1%;
+  margin-right: 1%;
+  top: 61px;
+}
+
+.portrait {
+  position: fixed;
+  padding-top: 15%;
+  width: 6%;
+  top: 5%;
+  max-width:auto;
+  height:auto;
+  mix-blend-mode: normal;
+  
+}
+
+.content{
+  padding-top: 20%;
+  font-family: Sahitya;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5vw;
+  line-height: 150%;
+}
+
+.list{
+  list-style-type: circle;
+  padding-left:10%
+}
+
+.about {
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 50%;
+}
+
+img {
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
